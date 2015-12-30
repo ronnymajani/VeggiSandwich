@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="VeggieSandwich" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/VeggieSandwich" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/VeggieSandwich" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../Decrypt/Decrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Decrypt/Decrypt.h" />
+		<Unit filename="../../Functions/DataFunctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Functions/DataFunctions.h" />
+		<Unit filename="../../Functions/GeneralFunctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Functions/GeneralFunctions.h" />
+		<Unit filename="../../Functions/SharedMacros.h" />
+		<Unit filename="../../Key_Length/Friedman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Key_Length/Friedman.h" />
+		<Unit filename="../../Key_Length/IndexCrack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Key_Length/IndexCrack.h" />
+		<Unit filename="../../Key_Word/Ceaser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Key_Word/Ceaser.h" />
+		<Unit filename="../../Key_Word/Frequency.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Key_Word/Frequency.h" />
+		<Unit filename="../../Menu/DataManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Menu/DecryptMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Menu/KeyLengthMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Menu/KeyWordMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Menu/MainMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Menu/Menu.h" />
+		<Unit filename="../../main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

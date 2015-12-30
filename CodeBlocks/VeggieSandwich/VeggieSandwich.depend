@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1430135994 source:c:\users\ronny\desktop\project veggi sandwich\main.c
+	"Menu/Menu.h"
+	"Functions/GeneralFunctions.h"
+	"Decrypt/Decrypt.h"
+	<stdio.h>
+	<string.h>
+	"Functions/SharedMacros.h"
+	"Functions/DataFunctions.h"
+	"Key_Length/Friedman.h"
+	"Key_Length/IndexCrack.h"
+	"Key_Word/Ceaser.h"
+	"Key_Word/Frequency.h"
+
+1429624405 c:\users\ronny\desktop\project veggi sandwich\menu\mainmenu.c
+	<stdio.h>
+	<stdlib.h>
+
+1430239740 source:c:\users\ronny\desktop\project veggi sandwich\menu\mainmenu.c
+	<stdio.h>
+	<stdlib.h>
+	"Menu.h"
+	"../Functions/GeneralFunctions.h"
+
+1429624547 c:\users\ronny\desktop\project veggi sandwich\menu\mainmenu.h
+
+1430134029 source:c:\users\ronny\desktop\project veggi sandwich\functions\generalfunctions.c
+	"GeneralFunctions.h"
+	"SharedMacros.h"
+	"DataFunctions.h"
+	<stdio.h>
+	<stdlib.h>
+
+1430132362 c:\users\ronny\desktop\project veggi sandwich\functions\generalfunctions.h
+
+1429712199 source:c:\users\ronny\desktop\project veggi sandwich\menu\decryptmenu.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"Menu.h"
+	"../Functions/SharedMacros.h"
+	"../Functions/GeneralFunctions.h"
+	"../Decrypt/Decrypt.h"
+
+1430123918 c:\users\ronny\desktop\project veggi sandwich\menu\menu.h
+
+1430239610 c:\users\ronny\desktop\project veggi sandwich\functions\sharedmacros.h
+	<stdio.h>
+
+1430239355 source:c:\users\ronny\desktop\project veggi sandwich\decrypt\decrypt.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"../Functions/DataFunctions.h"
+	"../Functions/GeneralFunctions.h"
+	"../Functions/SharedMacros.h"
+
+1429712174 c:\users\ronny\desktop\project veggi sandwich\decrypt\decrypt.h
+
+1430239017 source:c:\users\ronny\desktop\project veggi sandwich\functions\datafunctions.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+	"SharedMacros.h"
+	"GeneralFunctions.h"
+	"DataFunctions.h"
+	"../Key_Word/Frequency.h"
+
+1430240611 source:c:\users\ronny\desktop\project veggi sandwich\menu\datamanager.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"../Functions/SharedMacros.h"
+	"../Functions/GeneralFunctions.h"
+	"../Functions/DataFunctions.h"
+	"Menu.h"
+
+1430119649 c:\users\ronny\desktop\project veggi sandwich\functions\datafunctions.h
+
+1430238017 source:c:\users\ronny\desktop\project veggi sandwich\menu\keywordmenu.c
+	"Menu.h"
+	"../Functions/GeneralFunctions.h"
+	"../Key_Word/Frequency.h"
+	"../Key_Word/Ceaser.h"
+	<stdio.h>
+	<stdlib.h>
+
+1430129828 c:\users\ronny\desktop\project veggi sandwich\key_word\frequency.h
+
+1430239099 source:c:\users\ronny\desktop\project veggi sandwich\key_word\frequency.c
+	"../Functions/SharedMacros.h"
+	"../Functions/DataFunctions.h"
+	"../Functions/GeneralFunctions.h"
+	"Frequency.h"
+	"Ceaser.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+
+1430127726 source:c:\users\ronny\desktop\project veggi sandwich\key_length\friedman.c
+	"Friedman.h"
+	"../Key_Word/Frequency.h"
+	"../Functions/SharedMacros.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1429820509 c:\users\ronny\desktop\project veggi sandwich\key_length\friedman.h
+
+1430239218 source:c:\users\ronny\desktop\project veggi sandwich\menu\keylengthmenu.c
+	"../Key_Length/Friedman.h"
+	"../Functions/GeneralFunctions.h"
+	"../Key_Word/Frequency.h"
+	"../Key_Length/IndexCrack.h"
+	"Menu.h"
+	<stdio.h>
+
+1430124190 source:c:\users\ronny\desktop\project veggi sandwich\key_length\indexcrack.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	"IndexCrack.h"
+	"../Functions/DataFunctions.h"
+	"../Functions/SharedMacros.h"
+	"../Functions/GeneralFunctions.h"
+
+1430122278 c:\users\ronny\desktop\project veggi sandwich\key_length\indexcrack.h
+
+1430136351 source:c:\users\ronny\desktop\project veggi sandwich\key_word\ceaser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"../Functions/SharedMacros.h"
+	"../Functions/GeneralFunctions.h"
+	"../Functions/DataFunctions.h"
+	"Frequency.h"
+	"Ceaser.h"
+
+1430133494 c:\users\ronny\desktop\project veggi sandwich\key_word\ceaser.h
+
