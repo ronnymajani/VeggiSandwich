@@ -19,6 +19,10 @@ It contains a few tools (sum which I admit are pointless) that can decypher or h
 ##Building
 I used *Code::Blocks* IDE for this project, but for the convenience of those whoe prefer getting their hands a little dirtier via **makefile**s and the terminal, I used *cbp2make* to generate **makefile**s out of the codeblocks project.
 - To build the project using the makefiles just run the command `make -f makefile.*yourOS* [release] [debug]`
+- available make files (yourOS types):
+  - .unix
+  - .mac
+  - .windows
 - *example:* `make -f makefile.unix release`
 - if you don't specify the type of output you want (release and/or debug) the build will default to building for both (release AND debug)
 - **Warning:** I was only able to test the .unix version makefile so unfortunatley I can't gurantee that the other two are functional.
